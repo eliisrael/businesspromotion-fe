@@ -1,0 +1,14 @@
+.FormAlign {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+
+
+
