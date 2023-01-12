@@ -16,13 +16,14 @@ import budget from '../../../shared/img/budget 1.png'
 import leverage from '../../../shared/img/leverage 1.png'
 import power from '../../../shared/img/power 1.png'
 import logo from '../../../shared/img/logo_economize.jpg'
+import promotion from '../../../shared/img/prom.jpg'
 
 
 const InitialPage = () => {
     return (
         <BackgroundContainerStyle>
             <HeaderContainer>
-            <LogoStyle src={logo} alt="logo-economize-mais"/>
+            <LogoStyle src={promotion} alt="logo-economize-mais"/>
             <NavBarHome />
             </HeaderContainer>
             
