@@ -11,12 +11,12 @@ import {
 } from './initialPageStyle'
 import { BackgroundContainerStyle } from '../../../shared/styles/styleBackground';
 
-import controlFinance from '../../../shared/img/controle-financeiro.jpg'
-import budget from '../../../shared/img/budget 1.png'
-import leverage from '../../../shared/img/leverage 1.png'
-import power from '../../../shared/img/power 1.png'
+import controlFinance from '../../../shared/img/tela_principal.png'
+import budget from '../../../shared/img/descontos.jpg'
+import leverage from '../../../shared/img/porquinho.jpg'
+import power from '../../../shared/img/anuncio.jpg'
 import logo from '../../../shared/img/logo_economize.jpg'
-import promotion from '../../../shared/img/prom.jpg'
+import promotion from '../../../shared/img/logo_marca.png'
 
 
 const InitialPage = () => {
@@ -27,7 +27,7 @@ const InitialPage = () => {
             <NavBarHome />
             </HeaderContainer>
             
-            <TitleCenter>Não sabe para onde seu dinheiro está indo? Conheça a Economize+</TitleCenter>
+            <TitleCenter>Os melhores descontos você só encontra aqui no BUSINESS PROMOTION</TitleCenter>
             <MainImageCenter class="img-hero" src={controlFinance} alt="controle financeiro"/>
 
 
@@ -35,17 +35,17 @@ const InitialPage = () => {
             
             <RowItem>
             <ImgSize src={budget} alt=""/>
-            <p>50% da população brasileira não controla seu dinheiro</p>
+            <p>Descontos que cabem no seu bolso</p>
             </RowItem>
 
             <RowItem>    
             <ImgSize src={leverage} alt=""/>
-            <p>O economize+ vem pra facilitar sua vida com o dinheiro</p>
+            <p>Você pode economizar de acordo com o seu orçamento</p>
             </RowItem>
 
             <RowItem> 
             <ImgSize src={power} alt=""/>
-            <p>Se você não sabe por onde começar, clique em comece agora e vamos ajudar</p>
+            <p>Aproveite as promoções oferecidas pensando em você</p>
             </RowItem>
             </RowContainer>
             

@@ -17,7 +17,7 @@ import {
     Buttons
 } from './LoginPageStyles'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import logo from '../../../shared/img/logo_economize.jpg'
+import logo from '../../../shared/img/logo_marca.jpg'
 import imageright from '../../../shared/img/xcomo-controlar-a-ansiedade.png.pagespeed.ic 1.png'
 import {UserAlt} from '@styled-icons/fa-solid'
 import './LoginFormFormik.css'

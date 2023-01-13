@@ -36,7 +36,7 @@ export const RowContainer = styled.div `
 `
 
 export const RowItem = styled.div `
-    width: 15%;
+    width: 100%;
     height: 30vh;
     display: flex;
     flex-direction: column;
@@ -47,6 +47,6 @@ export const RowItem = styled.div `
 `
 
 export const ImgSize = styled.img `
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
 `
